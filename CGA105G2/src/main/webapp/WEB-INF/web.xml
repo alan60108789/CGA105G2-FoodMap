@@ -1,0 +1,78 @@
+<!--此處為宣告 Servlet 版本 應與Tomcat對應，請參考Tomcat官方說明:https://tomcat.apache.org/tomcat-9.0-doc/index.html -->
+<!--Apache Tomcat 9 -->
+<!--Introduction -->
+<!-- This is the top-level entry point of the documentation bundle for the 
+	Apache Tomcat Servlet/JSP container. -->
+<!-- Apache Tomcat version 9.0 implements the Servlet 4.0 and JavaServer 
+	Pages 2.3 specifications from the Java Community Process, and includes many 
+	additional features that make it a useful platform for developing and deploying 
+	web applications and web services. -->
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         id="WebApp_ID" version="4.0">
+    <!-- <display-name>Archetype Created Web Application</display-name> -->
+    <display-name>CGA105G2</display-name>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <resource-ref>
+        <description>DB Connection</description>
+        <res-ref-name>jdbc/TestDB</res-ref-name>
+        <res-type>javax.sql.DataSource</res-type>
+        <res-auth>Container</res-auth>
+    </resource-ref>
+
+    <!-- 此處設定創建.jsp檔案時候，宣告為UTF8 -->
+    <jsp-config>
+        <jsp-property-group>
+            <url-pattern>*.jsp</url-pattern>
+            <page-encoding>UTF-8</page-encoding>
+            <default-content-type>text/html</default-content-type>
+        </jsp-property-group>
+    </jsp-config>
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/BlankPage/Loader2.jsp</location>
+    </error-page>
+    <error-page>
+        <error-code>500</error-code>
+        <location>/BlankPage/Loader3.jsp</location>
+    </error-page>
+
+
+    <servlet>
+        <servlet-name>PointServlet</servlet-name>
+        <servlet-class>com.point.contorller.PointServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PointServlet</servlet-name>
+        <url-pattern>/front-end/Member/point/point.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PointServlet</servlet-name>
+        <url-pattern>/back-end/pointgood/point.do</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+    <filter>
+        <filter-name>SetCharacterEncodingFilter</filter-name>
+        <filter-class>org.apache.catalina.filters.SetCharacterEncodingFilter</filter-class>
+        <init-param>
+            <param-name>characterEncoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>SetCharacterEncodingFilter</filter-name>
+        <url-pattern>*.jsp</url-pattern>
+    </filter-mapping>
+
+
+</web-app>

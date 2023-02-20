@@ -1,0 +1,394 @@
+[
+{
+   "html_attributions" : [],
+   "result" : {
+      "address_components" : [
+         {
+            "long_name" : "28號",
+            "short_name" : "28號",
+            "types" : [ "street_number" ]
+         },
+         {
+            "long_name" : "復興路",
+            "short_name" : "復興路",
+            "types" : [ "route" ]
+         },
+         {
+            "long_name" : "中央里",
+            "short_name" : "中央里",
+            "types" : [ "administrative_area_level_4", "political" ]
+         },
+         {
+            "long_name" : "中壢區",
+            "short_name" : "中壢區",
+            "types" : [ "administrative_area_level_3", "political" ]
+         },
+         {
+            "long_name" : "桃園市",
+            "short_name" : "桃園市",
+            "types" : [ "administrative_area_level_1", "political" ]
+         },
+         {
+            "long_name" : "台灣",
+            "short_name" : "TW",
+            "types" : [ "country", "political" ]
+         },
+         {
+            "long_name" : "320061",
+            "short_name" : "320061",
+            "types" : [ "postal_code" ]
+         }
+      ],
+      "adr_address" : "\u003cspan class=\"postal-code\"\u003e320061\u003c/span\u003e\u003cspan class=\"country-name\"\u003e台灣\u003c/span\u003e\u003cspan class=\"region\"\u003e桃園市\u003c/span\u003e\u003cspan class=\"locality\"\u003e中壢區\u003c/span\u003e\u003cspan class=\"street-address\"\u003e中央里復興路28號\u003c/span\u003e",
+      "business_status" : "OPERATIONAL",
+      "curbside_pickup" : false,
+      "current_opening_hours" : {
+         "open_now" : false,
+         "periods" : [
+            {
+               "close" : {
+                  "date" : "2023-01-02",
+                  "day" : 1,
+                  "time" : "0130"
+               },
+               "open" : {
+                  "date" : "2023-01-01",
+                  "day" : 0,
+                  "time" : "1800"
+               }
+            },
+            {
+               "close" : {
+                  "date" : "2022-12-28",
+                  "day" : 3,
+                  "time" : "0130"
+               },
+               "open" : {
+                  "date" : "2022-12-27",
+                  "day" : 2,
+                  "time" : "1800"
+               }
+            },
+            {
+               "close" : {
+                  "date" : "2022-12-29",
+                  "day" : 4,
+                  "time" : "0130"
+               },
+               "open" : {
+                  "date" : "2022-12-28",
+                  "day" : 3,
+                  "time" : "1800"
+               }
+            },
+            {
+               "close" : {
+                  "date" : "2022-12-30",
+                  "day" : 5,
+                  "time" : "0130"
+               },
+               "open" : {
+                  "date" : "2022-12-29",
+                  "day" : 4,
+                  "time" : "1800"
+               }
+            },
+            {
+               "close" : {
+                  "date" : "2022-12-31",
+                  "day" : 6,
+                  "time" : "0130"
+               },
+               "open" : {
+                  "date" : "2022-12-30",
+                  "day" : 5,
+                  "time" : "1800"
+               }
+            },
+            {
+               "close" : {
+                  "date" : "2023-01-01",
+                  "day" : 0,
+                  "time" : "0130"
+               },
+               "open" : {
+                  "date" : "2022-12-31",
+                  "day" : 6,
+                  "time" : "1800"
+               }
+            }
+         ],
+         "weekday_text" : [
+            "星期一: 休息",
+            "星期二: 18:00 – 01:30",
+            "星期三: 18:00 – 01:30",
+            "星期四: 18:00 – 01:30",
+            "星期五: 18:00 – 01:30",
+            "星期六: 18:00 – 01:30",
+            "星期日: 18:00 – 01:30"
+         ]
+      },
+      "delivery" : false,
+      "dine_in" : true,
+      "formatted_address" : "320061台灣桃園市中壢區復興路28號",
+      "formatted_phone_number" : "03 426 5299",
+      "geometry" : {
+         "location" : {
+            "lat" : 24.9579835,
+            "lng" : 121.2252869
+         },
+         "viewport" : {
+            "northeast" : {
+               "lat" : 24.9592996302915,
+               "lng" : 121.2267242802915
+            },
+            "southwest" : {
+               "lat" : 24.9566016697085,
+               "lng" : 121.2240263197085
+            }
+         }
+      },
+      "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+      "icon_background_color" : "#FF9E67",
+      "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+      "international_phone_number" : "+886 3 426 5299",
+      "name" : "NOT Bar＆bistro",
+      "opening_hours" : {
+         "open_now" : false,
+         "periods" : [
+            {
+               "close" : {
+                  "day" : 1,
+                  "time" : "0130"
+               },
+               "open" : {
+                  "day" : 0,
+                  "time" : "1800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 3,
+                  "time" : "0130"
+               },
+               "open" : {
+                  "day" : 2,
+                  "time" : "1800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 4,
+                  "time" : "0130"
+               },
+               "open" : {
+                  "day" : 3,
+                  "time" : "1800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 5,
+                  "time" : "0130"
+               },
+               "open" : {
+                  "day" : 4,
+                  "time" : "1800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 6,
+                  "time" : "0130"
+               },
+               "open" : {
+                  "day" : 5,
+                  "time" : "1800"
+               }
+            },
+            {
+               "close" : {
+                  "day" : 0,
+                  "time" : "0130"
+               },
+               "open" : {
+                  "day" : 6,
+                  "time" : "1800"
+               }
+            }
+         ],
+         "weekday_text" : [
+            "星期一: 休息",
+            "星期二: 18:00 – 01:30",
+            "星期三: 18:00 – 01:30",
+            "星期四: 18:00 – 01:30",
+            "星期五: 18:00 – 01:30",
+            "星期六: 18:00 – 01:30",
+            "星期日: 18:00 – 01:30"
+         ]
+      },
+      "photos" : [
+         {
+            "height" : 4032,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/116132556964617290136\"\u003eHaoyu Liu\u003c/a\u003e"
+            ],
+            "photo_reference" : "ARywPAICsF4LGVp4PrinVGy-7mGhVbEHrP86ClK8ir0IpI__416MVy2zJOWgdYwoAcTZ52B2RlR0sh89j7JIjTdP3A3Mqqca5AXWpMRZi_hOCjR2fHKoQyLmRr1CrWw8635oUgR-2XEH78rllnvqn8nOXYZ0aL1c06H25cMb9icaJSkm083q",
+            "width" : 3024
+         },
+         {
+            "height" : 6240,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/107077409486738327402\"\u003eNOT Bar＆bistro\u003c/a\u003e"
+            ],
+            "photo_reference" : "ARywPAKJ2AeO3W2c8oq-ST7qPxp4Kb9laEFxb5LP1Cjr2urCDtoG3kuDXDGZem5Q2mmUQwlIG2V4WGXjM1mpfWH0jt3QxnUxM6IgiM3SzTkw_wtEgHm8uaAyT5TQaO_q0jTRwatQeagmDYEqo_nS3MBTzKk8jj9KKVPmMyJ1XsOCJFuW6PkJ",
+            "width" : 3512
+         },
+         {
+            "height" : 2880,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/100040668409909902513\"\u003eHaoyi\u003c/a\u003e"
+            ],
+            "photo_reference" : "ARywPAKUQBDGUeMTEkKdtie4Q2pQ4GIE1DiBc8pN12smW8fobxOFnqQ5r6Yjxkwk37i0uSDkdXG9BPN013LKu3ddAqPC655kE4WHSZgREY2zOR2UiQZ_CJqpLubBd_B8qud_4okPuW_TnqKdE_0kiS50k505kYW8r1x8Bhgs0DTY12MjFIhQ",
+            "width" : 2160
+         },
+         {
+            "height" : 4032,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/100939211725222533803\"\u003e林瑋廷\u003c/a\u003e"
+            ],
+            "photo_reference" : "ARywPALsZLvh9uZDSx-jnVPokyjE39dcDTXf5q5lGrynxouRG2K2GyAO_2p_-6TQt59Sw6nCIEfBxiWYCoV0yKzdHTf4mJ6SDHTlNiYbvb6OJ-RlLg9o5VKMbyn7OW8nPT86_V36POCOgXj0yPu4s29_QJsEorzyyU3-ZLfeDJ--jveVez70",
+            "width" : 3024
+         },
+         {
+            "height" : 3024,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/108040770820122530292\"\u003e雅玲廖\u003c/a\u003e"
+            ],
+            "photo_reference" : "ARywPAKkxZOgsjvkMxK8kZxYRLbZbgkYDPci_cPn3fO89ENRTdqilIkbTDtoYJFj5f6yhS4RQCj8lEylHPj3NnB-Qvqs4P0SkQyCdQY6wDeeujGHnYm-TDxCppeLEiejCVyOvSlET_qBG1WrYZPxoY3_RT8XD9oZ8d7_w4_Keia6aaPJEDSt",
+            "width" : 4032
+         },
+         {
+            "height" : 4000,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/115284702000477896949\"\u003eSimon Chi\u003c/a\u003e"
+            ],
+            "photo_reference" : "ARywPALmFZQGJV-dTncmGd2mboj5hvp_XTNK5xmbuM9wrXj5rm2AGXZSFfbPguUyKBbFU3xP8QVEbpFEljyE2juos_0hgZcJIt5U2A4UvzRpjlfdVu8IBt6J6B3gxoIOghf49ZX4XxiZq6W312iw1GQl3LuYHkOv1qD9jjDCgFy9JgCqpNMa",
+            "width" : 3000
+         },
+         {
+            "height" : 4032,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/117978567471226357452\"\u003eRock\u003c/a\u003e"
+            ],
+            "photo_reference" : "ARywPAKy6bn4H5skZ7axUpncBAc-FCK9O5AEPHYq-C-_y8uGjblakqf34GU78UuMeMHYt2590nL5keSA-_TY7uqu6MtvzsSck0o7XaNo4KlVZxO0gA_4-SYR2xBhfOdDILj5j4sMlvp3LwEyNlkXRgEUQ24_N_vm12aSHCSF3kioIoCIacl2",
+            "width" : 3024
+         },
+         {
+            "height" : 4032,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/112710501328358249935\"\u003e醃魚\u003c/a\u003e"
+            ],
+            "photo_reference" : "ARywPALAvGyEIiyPJntMmtHsqCqAW8aY9ORFgscMS4G3GPr-GNbGc_m9R6JWkvpCgtce8oHXKB9KSzO4E7sGns_gLvEDxBTwpdOR18kZQ7ysKZpLLuQYdRg56VhYJ-Jq4fcs2F0SjVaY3gCRPT-oMsHuVj8dqfEyf9L4N4p8jsYk7fSnYlmh",
+            "width" : 3024
+         },
+         {
+            "height" : 4624,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/110842594619295380094\"\u003e王小克\u003c/a\u003e"
+            ],
+            "photo_reference" : "ARywPAJUu4YpCYhZ9bZlK0wnixPfV6NY0p2WPQLGa7KVQFHW6UGMIvArnMqd62cb6oUkl8XIELe8QilkoGw-oq77JHsNni4bpxjhBTA4QC3toD31NCsvAkmWI-nfgR-t1Wg7bwoxf9R-xjWpwPZb2r3gpi5x_LJMT7Rb-O44X0nMFAURUVk1",
+            "width" : 2604
+         },
+         {
+            "height" : 4032,
+            "html_attributions" : [
+               "\u003ca href=\"https://maps.google.com/maps/contrib/116610249165311952834\"\u003e劉雅文\u003c/a\u003e"
+            ],
+            "photo_reference" : "ARywPAICwED-AChHQzQAmlbnBLHyiV67aW2xaKzeSpUG9Pdgw6aVJHYulQj4mUhK5DB-6i6IpOXzn9WKa7PQKsIwPQEB4tV1uj89P-ex7eKzLNvXUt5RKE_RR4ye68cSzreI_aEcBMpB96ss1i2UenWovmmJuoixoEvAsNT0KG5Pj2Kf6IPh",
+            "width" : 3024
+         }
+      ],
+      "place_id" : "ChIJF4BYSHEjaDQRjxuja9QrFUQ",
+      "plus_code" : {
+         "compound_code" : "X65G+54 台灣桃園市中壢區",
+         "global_code" : "7QP3X65G+54"
+      },
+      "rating" : 5,
+      "reference" : "ChIJF4BYSHEjaDQRjxuja9QrFUQ",
+      "reservable" : true,
+      "reviews" : [
+         {
+            "author_name" : "Haoyu Liu",
+            "author_url" : "https://www.google.com/maps/contrib/116132556964617290136/reviews",
+            "language" : "zh-Hant",
+            "original_language" : "zh-Hant",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AD5-WClL1de2oVO0nEIaGbp9vsFYVILKOjdPVA-6wXBoJw=s128-c0x00000000-cc-rp-mo",
+            "rating" : 5,
+            "relative_time_description" : "5 個月前",
+            "text" : "很有質感的一家酒吧，值得再來一次",
+            "time" : 1657129395,
+            "translated" : false
+         },
+         {
+            "author_name" : "Rock",
+            "author_url" : "https://www.google.com/maps/contrib/117978567471226357452/reviews",
+            "language" : "zh-Hant",
+            "original_language" : "zh-Hant",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AD5-WCn9Sli9zk1vPe9oPKhicTuJSJCzxu04XNTWQEWBrA=s128-c0x00000000-cc-rp-mo",
+            "rating" : 5,
+            "relative_time_description" : "4 個月前",
+            "text" : "高Cp值的精緻酒吧，從器皿的挑選到調酒的風味設計，跳脫出在地酒吧鮮少有的高級印象，店家相當用心～\n\n有質感的門面至走進的一樓吧台，會令人訝異酒品的價格居然只有「$80～$300」，讓愛喝酒的人，輕鬆喝沒有負擔👍🏻\n\n來中壢我只推NOT Bar & Bistro",
+            "time" : 1660303264,
+            "translated" : false
+         },
+         {
+            "author_name" : "JOE式生活",
+            "author_url" : "https://www.google.com/maps/contrib/103955389745820305593/reviews",
+            "language" : "zh-Hant",
+            "original_language" : "zh-Hant",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AD5-WClhJzP4WB_bgBchdLSvg1h8FvLRPXd0BVt7U185=s128-c0x00000000-cc-rp-mo",
+            "rating" : 5,
+            "relative_time_description" : "4 個月前",
+            "text" : "調酒好喝又平價，吧檯的設計讓客人跟調酒師沒有距離感。很推薦。",
+            "time" : 1660303638,
+            "translated" : false
+         },
+         {
+            "author_name" : "張小竹",
+            "author_url" : "https://www.google.com/maps/contrib/118191764311628205607/reviews",
+            "language" : "zh-Hant",
+            "original_language" : "zh-Hant",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/a/AEdFTp4gzLOiO47nL4JNmPqN0vJ0SLcXljKLDDt7MeSn=s128-c0x00000000-cc-rp-mo-ba3",
+            "rating" : 5,
+            "relative_time_description" : "2 個月前",
+            "text" : "調酒師帥的養眼，酒的風格有質感及深度，推薦愛喝創新風味的酒客們👍👍👍",
+            "time" : 1666364498,
+            "translated" : false
+         },
+         {
+            "author_name" : "Simon Chi",
+            "author_url" : "https://www.google.com/maps/contrib/115284702000477896949/reviews",
+            "language" : "zh-Hant",
+            "original_language" : "zh-Hant",
+            "profile_photo_url" : "https://lh3.googleusercontent.com/a-/AD5-WClODlSSZb6KY_F3WEU-445JKN0aT0Tfb0Hgzq5NLA=s128-c0x00000000-cc-rp-mo-ba6",
+            "rating" : 5,
+            "relative_time_description" : "5 個月前",
+            "text" : "這裏有不錯的風格，好喝的調酒，放心可看著酒單直接點。亦或是來個自點調酒，當然從來沒去想過要怎麼調酒，對於調酒的配方自然是一竅不通，但這習慣到了西方國家可是會不好意思的，因為在歐美酒吧多數都是直接跟Bartender直接點酒，沒有酒單可看的！",
+            "time" : 1658772480,
+            "translated" : false
+         }
+      ],
+      "serves_beer" : true,
+      "serves_wine" : true,
+      "takeout" : true,
+      "types" : [ "bar", "point_of_interest", "establishment" ],
+      "url" : "https://maps.google.com/?cid=4905875560428936079",
+      "user_ratings_total" : 72,
+      "utc_offset" : 480,
+      "vicinity" : "中壢區復興路28號",
+      "website" : "https://not-barbistro.business.site/?utm_source=gmb&utm_medium=referral"
+   },
+   "status" : "OK"
+}
+]

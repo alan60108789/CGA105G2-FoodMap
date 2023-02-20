@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <title>🗃️管理</title>
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="/assets/css/vendor.css" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/custom.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    body {
+      height: 100%;
+    }
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    a {
+      color: black;
+    }
+
+    .table th {
+      white-space: nowrap !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="page-start-anchor"></div>
+
+  <!-- header start -->
+  <section class="header header-fixed-xl">
+    <div class="header-main bg-warning">
+      <div class="container" style="max-width: 1400px">
+        <div class="row" style="max-width: 1400px">
+          <nav class="navbar navbar-expand-lg navbar-light fs-md-6" id="header-navbar">
+            <!-- @*Navbar(白色)*@ -->
+            <div>
+              <a class="navbar-brand font-weight-bold" href="Member.html">
+                <img src="/assets/images/Logo.PNG" style="width: 100px; height: 100px" alt="" /></a>
+            </div>
+            <form class="form-inline my-2 my-md-0 bg-white p-1 " style="border-radius: 30px;">
+              <div class="single-icon" data-toggle="tooltip" title="" data-original-title="search" style="border: 0; ">
+                <i class="material-icons">search</i>
+              </div>
+
+              <input class="form-control " type="text" placeholder="Search" style="border: 0; border-radius: 30px;">
+            </form>
+
+            <!--            ps-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <div class="navbar-spacer"></div>
+                <div class="navbar-spacer"></div>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" data-toggle="none" href="./ContactUs.html">
+                    📭聯繫我們
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" data-toggle="none" href="./ContactUs.html">
+                    🌟
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" data-toggle="none" href="./MemberLogin.html">
+                    💰point
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" data-toggle="none" href="./Waiting.html">
+                    🛒
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase active disabled" data-toggle="none"
+                    style="color: #216a51 !important;" href="./AboutUS.html">
+                    🗃️管理
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" data-toggle="none" href="home.html">
+                    🚪Sing out
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- header end -->
+
+  <!-- main -->
+
+
+  <!-- main -->
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+        <div class="p-4 pt-5">
+          <ul class="list-unstyled components mb-5">
+            <li class="p-2 text-center">
+              <a href="#">
+                <h2>Home</h2>
+              </a>
+            </li>
+            <li>
+
+              <hr>
+              <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown">
+                <h3>🔻優惠券</h3>
+              </a>
+              <ul class="list-unstyled collapse" id="pageSubmenu1">
+                <li>
+                  <hr><a href="Member_code1.html">🔆有效優惠券</a>
+                </li>
+                <li><a href="#">🔆歷史查詢</a>
+                  <hr>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown">
+                <h3>🔻訂單</h3>
+              </a>
+              <ul class="list-unstyled collapse" id="pageSubmenu2">
+                <li>
+                  <hr><a href="#">🔆待出貨</a>
+                </li>
+                <li><a href="#">🔆待評價</a></li>
+                <li><a href="#">🔆歷史查詢</a>
+                  <hr>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown">
+                <h3>🔻訂位</h3>
+              </a>
+              <ul class="collapse list-unstyled" id="pageSubmenu3">
+                <li>
+                  <hr><a href="#">🔆已預約</a>
+                </li>
+                <li><a href="#">🔆用餐評價</a></li>
+                <li><a href="#">🔆訂位紀錄</a>
+                  <hr>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown">
+                <h3>🔻設定</h3>
+              </a>
+              <ul class="collapse list-unstyled" id="pageSubmenu4">
+                <li>
+                  <hr><a href="#">🔆基本資料</a>
+                </li>
+                <li><a href="#">🔆收件地址</a></li>
+                <li><a href="#">🔆付款方式</a></li>
+                <li><a href="#">🔆變更密碼</a>
+                  <hr>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="col-md-9 custom-table-width m-5">
+        <h1 class="h2 mt-5"> 🔆訂位紀錄</h1>
+        <table class="table table-striped table-sm" width="100%"
+          style="text-align:center; font-size: 20px; word-break:break-all; word-wrap:break-word;">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col" class="text-nowrap align-middle" width="5%"></th>
+              <th scope="col" class="text-nowrap align-middle" width="10%">姓名</th>
+              <th scope="col" class="text-nowrap align-middle" width="10%">店家</th>
+              <th scope="col" class="text-nowrap align-middle" width="5%">人數</th>
+              <th scope="col" class="text-nowrap align-middle" width="10%">日期</th>
+              <th scope="col" class="text-nowrap align-middle" width="5%">時段</th>
+              <th scope="col" class="text-nowrap align-middle" width="20%">餐點</th>
+              <th scope="col" class="text-nowrap align-middle" width="10%">狀態</th>
+              <th scope="col" class="text-nowrap align-middle" width="10%">評分</th>
+              <th scope="col" class="text-nowrap align-middle" width="15%">操作</th>
+            </tr>
+          </thead>
+          <tbody id="tbody_detail">
+            <tr id="tr_detail">
+              <th scope="row" class="text-nowrap align-middle">1</th>
+              <td id="name1" class="text-nowrap align-middle">user</td>
+              <td id="shop1" class="text-nowrap align-middle">麥當勞</td>
+              <td id="count1" class="text-nowrap align-middle">2</td>
+              <td id="date_time1" class="text-nowrap align-middle">12/21/2022</td>
+              <td id="time1" class="text-nowrap align-middle">11:00</td>
+              <td class="text-wrap align-middle">ee</td>
+              <td class="text-nowrap align-middle">已完成</td>
+              <td class="text-nowrap align-middle"></td>
+              <td class="text-nowrap"><button id="order_edit1" class="btn btn-warning mb-1">評分</button></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <canvas class="my-4 w-100" id="myChart" width="900" height="300"></canvas>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- main -->
+
+  <!-- footer start -->
+  <section class="footer bg-warning" style=" width: 100%; position:relative; bottom:0; top:30%">
+    <div class="container">
+      <!-- 三張小圖 -->
+      <div class="d-flex align-items-stretch justify-content-md-center py-10">
+        <!-- 地址 -->
+        <div class="card border-0 bg-secondary mb-4 ml-lg-9 w-25">
+          <div class="card-body py-17 px-10 text-center">
+            <div class="card-icon mb-6"><i class="material-icons">map</i></div>
+            <div
+              class="fs-1 lh-1 my-5 font-family-secondary text-uppercase font-weight-bold letter-spacing-caption text-muted">
+              Our address
+            </div>
+            <p class="mb-0 text-body">桃園市中壢區復興路46號9樓<br />Hollow Lane. NY 11706.</p>
+          </div>
+        </div>
+        <!-- 電話 -->
+        <div class="card border-0 bg-secondary mb-4 ml-lg-9 w-25">
+          <div class="card-body py-17 px-10 text-center">
+            <div class="card-icon mb-6"><i class="material-icons">phone</i></div>
+            <div
+              class="fs-1 lh-1 my-5 font-family-secondary text-uppercase font-weight-bold letter-spacing-caption text-muted">
+              連絡電話
+            </div>
+            <p class="mb-0 text-body">0800-087-087</p>
+          </div>
+        </div>
+        <!-- 營業時間 -->
+        <div class="card border-0 bg-secondary mb-4 ml-lg-9 w-25">
+          <div class="card-body py-17 px-10 text-center">
+            <div class="card-icon mb-6"><i class="material-icons">access_time</i></div>
+            <div
+              class="fs-1 lh-1 my-5 font-family-secondary text-uppercase font-weight-bold letter-spacing-caption text-muted">
+              營業時間
+            </div>
+            <p class="mb-0 text-body">11:00 AM - 9:00 PM</p>
+          </div>
+        </div>
+      </div>
+      <!-- 跳轉到社群連結 -->
+      <div class="d-flex align-items-center justify-content-center">
+        <a href="home.html" class="footer-brand">FoodMap</a>
+        <div class="brand-icons-list ml-10 ml-sm-20">
+          <!-- FB圖案 -->
+          <a href="#" class="brand-icon brand-icon-circle brand-icon-facebook">
+            <i class="fa fa-facebook-f"></i>
+          </a>
+          <!-- twitter圖案 -->
+          <a href="#" class="brand-icon brand-icon-circle brand-icon-twitter">
+            <i class="fa fa-twitter "></i>
+          </a>
+          <!-- ig圖案-->
+          <a href="#" class="brand-icon brand-icon-circle brand-icon-instagram">
+            <i class="fa fa-pinterest-p"></i>
+          </a>
+        </div>
+      </div>
+      <!-- 頁底文字 -->
+      <small class="d-flex align-items-center justify-content-center" style="margin:0px -10px 0px -10px;">
+        TibaMe CGA105_2 MapFood
+        <a href="#" data-toggle="smooth-scroll" data-target="#page-start-anchor">
+          <i class="material-icons text-black">arrow_upward</i>
+        </a>
+      </small>
+    </div>
+  </section>
+  <!-- footer end -->
+
+  <script src="/assets/js/vendor.js"></script>
+  <script src="/assets/js/polyfills.js"></script>
+  <script src="/assets/js/app.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+    </script> -->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+
+  <script>
+
+
+
+
+  </script>
+  <!-- Vue -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return {
+          message: "Hello Vue!",
+        };
+      },
+    }).mount("#app");
+  </script>
+  <!-- stickey bar: -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-sidebar/3.3.1/sticky-sidebar.min.js"></script>
+  
+  <script>
+    let a = new StickySidebar("#sidebar", {
+      topSpacing: 40,
+      bottomSpacing: 20,
+      containerSelector: ".container",
+      innerWrapperSelector: ".sidebar__inner"
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>🗃️管理</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="/assets/css/vendor.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/custom.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+
+    <style>
+        body {
+            height: 100%;
+        }
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        a {
+            color: black;
+        }
+
+        /* ========button的樣式=============== */
+        .btn-secondary {
+            font-family: "Noto Sans TC", sans-serif;
+            font-size: 18px;
+            letter-spacing: .05em;
+            border-radius: .75em;
+            font-weight: 500;
+            color: #FFFFFF;
+            background-color: #164570;
+            padding: 5px 13px;
+            cursor: pointer;
+        }
+
+        /* ============星星的css============== */
+        .rating-wrapper {
+            direction: rtl !important;
+        }
+
+    
+        .storescorelabel {
+            color: #E1E6F6;
+            cursor: pointer;
+            font-size: 32px;
+            padding: 8px 3px;
+            transition: color 0.5s;
+        }
+
+        .storescore {
+            height: 100%;
+            width: 100%;
+            display: none;
+        }
+
+        .storescorelabel:hover,
+        .storescorelabel:hover~.storescorelabel,
+        .storescore:checked~label {
+            color: #ffe223;
+        }
+        /* ==================上傳圖片的css==================== */
+.image-upload input {
+        display:none;
+    }
+.upload-field{
+  cursor: pointer;
+}
+
+.upload-field .file-thumbnail {
+  cursor: pointer;
+  border: 1px dashed #BBD9EC;
+  border-radius: 11px;
+  text-align: center;
+  padding: 10px 0px;
+  width: 100px;
+  height: 100px;
+}
+
+.upload-field .file-thumbnail img {
+  width: 50px;
+}
+
+.upload-field .file-thumbnail h3 {
+  font-size: 15px;
+  color: #000000;
+  font-weight: 1000;
+  margin-top: 10px;
+}
+/* ==================上傳圖片css結束======================= */
+    </style>
+</head>
+
+<body>
+    <div id="page-start-anchor"></div>
+
+    <!-- header start -->
+    <section class="header header-fixed-xl">
+        <div class="header-main bg-warning">
+            <div class="container" style="max-width: 1400px">
+                <div class="row" style="max-width: 1400px">
+                    <nav class="navbar navbar-expand-lg navbar-light fs-md-6" id="header-navbar">
+                        <!-- @*Navbar(白色)*@ -->
+                        <div>
+                            <a class="navbar-brand font-weight-bold" href="Member.html">
+                                <img src="/assets/images/Logo.PNG" style="width: 100px; height: 100px" alt="" /></a>
+                        </div>
+                        <form class="form-inline my-2 my-md-0 bg-white p-1 " style="border-radius: 30px;">
+                            <div class="single-icon" data-toggle="tooltip" title="" data-original-title="search"
+                                style="border: 0; "><i class="material-icons">search</i>
+                            </div>
+
+                            <input class="form-control " type="text" placeholder="Search"
+                                style="border: 0; border-radius: 30px;">
+                        </form>
+
+                        <!--            ps-->
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <div class="navbar-spacer"></div>
+                                <div class="navbar-spacer"></div>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase" data-toggle="none" href="./ContactUs.html">
+                                        📭聯繫我們
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase" data-toggle="none" href="./ContactUs.html">
+                                        🌟
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase" data-toggle="none" href="./MemberLogin.html">
+                                        💰point
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase" data-toggle="none" href="./Waiting.html">
+                                        🛒
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase active disabled" data-toggle="none"
+                                        style="color: #216a51 !important;" href="./AboutUS.html">
+                                        🗃️管理
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-uppercase" data-toggle="none" href="home.html">
+                                        🚪Sing out
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- header end -->
+
+    <!-- main -->
+
+
+    <!-- main -->
+    <div class="container-fluid">
+        <div class="row">
+            <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+                <div class="p-4 pt-5">
+                    <ul class="list-unstyled components mb-5">
+                        <li class="p-2 ">
+                            <a href="#">
+                                <h2>Home</h2>
+                            </a>
+                        </li>
+                        <li>
+    
+                            <hr>
+                            <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown">
+                                <h3>🔻優惠券</h3>
+                            </a>
+                            <ul class="list-unstyled collapse" id="pageSubmenu1">
+                                <li>
+                                    <hr><a href="Member_code1.html">🔆有效優惠券</a>
+                                </li>
+                                <li><a href="#">🔆歷史查詢</a>
+                                    <hr>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown">
+                                <h3>🔻訂單</h3>
+                            </a>
+                            <ul class="list-unstyled collapse" id="pageSubmenu2">
+                                <li>
+                                    <hr><a href="#">🔆待出貨</a>
+                                </li>
+                                <li><a href="#">🔆待評價</a></li>
+                                <li><a href="#">🔆歷史查詢</a>
+                                    <hr>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown">
+                                <h3>🔻訂位</h3>
+                            </a>
+                            <ul class="collapse list-unstyled" id="pageSubmenu3">
+                                <li>
+                                    <hr><a href="#">🔆已預約</a>
+                                </li>
+                                <li><a href="#">🔆用餐評價</a></li>
+                                <li><a href="#">🔆訂位紀錄</a>
+                                    <hr>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown">
+                                <h3>🔻設定</h3>
+                            </a>
+                            <ul class="collapse list-unstyled" id="pageSubmenu4">
+                                <li>
+                                    <hr><a href="#">🔆基本資料</a>
+                                </li>
+                                <li><a href="#">🔆收件地址</a></li>
+                                <li><a href="#">🔆付款方式</a></li>
+                                <li><a href="#">🔆變更密碼</a>
+                                    <hr>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 my-5">
+                <div
+                    class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">🔆發文頁面</h1>
+                    <div class="btn-toolbar mb-2 mb-md-0">
+                        <div class="btn-group mr-2">
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Share</button>
+                            <button type="button" class="btn btn-sm btn-outline-secondary">Export</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- =======================會員頭像======================= -->
+
+                <div class="row justify-content-center">
+                    <div class="col-7 mb-10">
+                        <div class="postmember_info" style="display: flex;margin-top: 30px;">
+                            <div class="postmember_img">
+                                <img src="/assets/images/men.png"
+                                    style="width:65px ; height:60px;border-radius: 80%;border: 1px solid rgb(255, 216, 87);">
+
+                            </div>
+                            <div class="postmember_text" style="margin-left: 5px;">
+
+                                <span class="postmember_name" style="font-size: 20px;">
+                                    江詩傑
+                                </span>
+                                <div>
+                                    <time>2022-12-23</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- ==================發文開始======================= -->
+                <div class="row justify-content-center">
+                    <div class="col-7 mb-10 shadow " style="padding: 30px;border: 3px solid rgba(208, 208, 208, 0.644);border-radius: 20px;">
+                        <div class="poststore_info" style="display: flex;margin-top: 10px;">
+                            <div class="poststore_img">
+                                <img src="/assets/images/ex1.jpg"
+                                    style="width:65px ; height:60px;border: 1px solid rgb(255, 216, 87);">
+
+                            </div>
+                            <div class="poststore_text" style="margin-left: 5px;align-items: center;display: flex;">
+
+                                <span class="post_name" style="font-size: 30px;font-weight: 1000;">
+                                    劉媽媽小吃店
+                                </span>
+
+                            </div>
+                        </div>
+                        <!-- ===================店家評分星星================== -->
+                        <!-- star rating -->
+                        <div class="rating-wrapper pt-3">
+                            <div>
+                            <span style="font-size: 22px;font-weight: 600;background-color: antiquewhite;margin-left: 20px;line-height: 60px;">(5 / 1)</span>
+                            <!-- star 5 -->
+                            <input type="radio" id="5-star-rating" class="storescore" name="star-rating" value="5">
+                            <label for="5-star-rating" class="star-rating storescorelabel">
+                                <i class="fa fa-star d-inline-block"></i>
+                            </label>
+
+                            <!-- star 4 -->
+                            <input type="radio" id="4-star-rating" class="storescore" name="star-rating" value="4">
+                            <label for="4-star-rating" class="star-rating star storescorelabel">
+                                <i class="fa fa-star d-inline-block"></i>
+                            </label>
+
+                            <!-- star 3 -->
+                            <input type="radio" id="3-star-rating" class="storescore" name="star-rating" value="3">
+                            <label for="3-star-rating" class="star-rating star storescorelabel">
+                                <i class="fa fa-star d-inline-block"></i>
+                            </label>
+
+                            <!-- star 2 -->
+                            <input type="radio" class="storescore" id="2-star-rating" name="star-rating" value="2">
+                            <label for="2-star-rating" class="star-rating star storescorelabel">
+                                <i class="fa fa-star d-inline-block"></i>
+                            </label>
+
+                            <!-- star 1 -->
+                            <input type="radio" id="1-star-rating" class="storescore" name="star-rating" value="1">
+                            <label for="1-star-rating" class="star-rating star storescorelabel">
+                                <i class="fa fa-star d-inline-block"></i>
+                            </label>
+                            <span style="font-size: 22px;font-weight: 600;background-color: antiquewhite;">:評分</span>
+                        </div>
+                        </div>
+
+
+                        <!-- ==============標記tag================== -->
+                        <div class="tag" style="margin-top: 15px;display: flex;">
+                            <b><span
+                                    style="font-size: 16px;padding: 8px 15px;border-radius:15px ;margin-right: 5px;background-color: rgb(82, 206, 156);color: white;">#寵物友善店家</span></b>
+                            <b><span
+                                    style="font-size: 16px;padding: 8px 15px;border-radius:15px ;margin-right: 5px;background-color: rgb(82, 206, 156);color: white;">#銀髮族友善店家</span></b>
+                        </div>
+                        <!-- ===========輸入欄位開始================ -->
+                        <div style="margin-bottom: 30px;">
+                            <form class="post" action="" enctype="multipart/form-data">
+                                <div>
+                                    <input id=tb22_title type="text" placeholder="文章標題" class="form-control"
+                                        style="width: 100%;margin: 20px 0px;">
+                                </div>
+                                <div class="mb-5">
+                                    <textarea name="tb22_comment" id="" placeholder="給店家的評語"
+                                        style="width: 100%;height: 150px;" class="form-control"></textarea>
+                                </div>
+                                <!-- ==============插入圖片開始================= -->
+                                <div class="image-upload">
+                                    <input type="file" name="tb22_uploadimage" id="logo" onchange="fileValue(this)" >
+                                    <label for="logo" class="upload-field" id="file-label">
+                                        <div class="file-thumbnail">
+                                            <img id="image-preview" src="https://www.btklsby.go.id/images/placeholder/basic.png" alt="">
+                                            <h3 id="filename">
+                                                上傳圖片
+                                            </h3>
+                                       
+                                        </div>
+                                    </label>
+                                </div>
+                                <!-- ==================發表評論開始====================== -->
+                                <div class="post_btn" style=" display:flex; justify-content: flex-end">
+                                    <button type="reset" class="btn-secondary" @click="backHome" @submit.prevent
+                                        style="background-color: gray;">取消</button>
+                                    <button type="submit" class="btn-secondary" @click="uploadData" @submit.prevent
+                                        style="margin-left: 10px">發表評論</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- =================發文結束======================= -->
+
+
+            </main>
+        </div>
+    </div>
+
+    <!-- main -->
+
+    <!-- footer start -->
+    <section class="footer bg-warning" style=" width: 100%; position:relative; bottom:0; top:30%">
+        <div class="container">
+            <!-- 三張小圖 -->
+            <div class="d-flex align-items-stretch justify-content-md-center py-10">
+                <!-- 地址 -->
+                <div class="card border-0 bg-secondary mb-4 ml-lg-9 w-25">
+                    <div class="card-body py-17 px-10 text-center">
+                        <div class="card-icon mb-6"><i class="material-icons">map</i></div>
+                        <div
+                            class="fs-1 lh-1 my-5 font-family-secondary text-uppercase font-weight-bold letter-spacing-caption text-muted">
+                            Our address
+                        </div>
+                        <p class="mb-0 text-body">桃園市中壢區復興路46號9樓<br />Hollow Lane. NY 11706.</p>
+                    </div>
+                </div>
+                <!-- 電話 -->
+                <div class="card border-0 bg-secondary mb-4 ml-lg-9 w-25">
+                    <div class="card-body py-17 px-10 text-center">
+                        <div class="card-icon mb-6"><i class="material-icons">phone</i></div>
+                        <div
+                            class="fs-1 lh-1 my-5 font-family-secondary text-uppercase font-weight-bold letter-spacing-caption text-muted">
+                            連絡電話
+                        </div>
+                        <p class="mb-0 text-body">0800-087-087</p>
+                    </div>
+                </div>
+                <!-- 營業時間 -->
+                <div class="card border-0 bg-secondary mb-4 ml-lg-9 w-25">
+                    <div class="card-body py-17 px-10 text-center">
+                        <div class="card-icon mb-6"><i class="material-icons">access_time</i></div>
+                        <div
+                            class="fs-1 lh-1 my-5 font-family-secondary text-uppercase font-weight-bold letter-spacing-caption text-muted">
+                            營業時間
+                        </div>
+                        <p class="mb-0 text-body">11:00 AM - 9:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 跳轉到社群連結 -->
+            <div class="d-flex align-items-center justify-content-center">
+                <a href="home.html" class="footer-brand">FoodMap</a>
+                <div class="brand-icons-list ml-10 ml-sm-20">
+                    <!-- FB圖案 -->
+                    <a href="#" class="brand-icon brand-icon-circle brand-icon-facebook">
+                        <i class="fa fa-facebook-f"></i>
+                    </a>
+                    <!-- twitter圖案 -->
+                    <a href="#" class="brand-icon brand-icon-circle brand-icon-twitter">
+                        <i class="fa fa-twitter "></i>
+                    </a>
+                    <!-- ig圖案-->
+                    <a href="#" class="brand-icon brand-icon-circle brand-icon-instagram">
+                        <i class="fa fa-pinterest-p"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- 頁底文字 -->
+            <small class="d-flex align-items-center justify-content-center" style="margin:0px -10px 0px -10px;">
+                TibaMe CGA105_2 MapFood
+                <a href="#" data-toggle="smooth-scroll" data-target="#page-start-anchor">
+                    <i class="material-icons text-black">arrow_upward</i>
+                </a>
+            </small>
+        </div>
+    </section>
+    <!-- footer end -->
+
+    <script src="/assets/js/vendor.js"></script>
+    <script src="/assets/js/polyfills.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+    
+
+    <!-- Bootstrap 4.6.2 & Vue 3 & jquery 3.4.1-->
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+
+            new ClipboardJS('.btn');
+
+        });
+        const list = [
+            {
+                CODE_ID: 1,
+                STORE_NAME: '麥當勞-中正店',
+                CODE_OFF: 20,
+                CODE_NUM: 'MYC20',
+                CODE_NTIME: 2022 - 12 - 31
+            },
+            {
+                CODE_ID: 2,
+                STORE_NAME: '阿雄麵店',
+                CODE_OFF: 35,
+                CODE_NUM: 'YC35',
+                CODE_NTIME: 2022 - 12 - 30
+            },
+            {
+                CODE_ID: 3,
+                STORE_NAME: '鑫艷',
+                CODE_OFF: 2000,
+                CODE_NUM: 'HaHa0101',
+                CODE_NTIME: '2023-01-01'
+            }
+        ];
+        render(list);
+        function render(list) {
+            // 定義變數，在使用變數
+            const codetbody = document.querySelector('.code_tbody');
+            codetbody.innerHTML = '';
+            for (let item of list) {
+                codetbody.innerHTML += `
+             <tr>
+              <td><button type="button" class="btn btn-dark p-0 " data-clipboard-action="copy" data-clipboard-target="#clipboardExample${item.CODE_ID}">Copy</button></td>
+              <td>${item.STORE_NAME}</td>
+              <td>$${item.CODE_OFF}</td>
+              <td id="clipboardExample${item.CODE_ID}">${item.CODE_NUM}</td>
+              <td>${item.CODE_NTIME}</td>
+            </tr>
+`;
+            }
+        }
+    </script>
+    <!-- Vue -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const { createApp } = Vue;
+
+        createApp({
+            data() {
+                return {
+                    message: "Hello Vue!",
+                };
+            },
+        }).mount("#app");
+    </script>
+    <!-- ==================上傳圖片js=================== -->
+    <script>
+        function fileValue(value) {
+            const path = value.value;
+            const extenstion = path.split('.').pop();
+            if(extenstion == "jpg" || extenstion == "svg" || extenstion == "jpeg" || extenstion == "png"|| extenstion == "gif" ||extenstion == "JPG" ){
+        document.getElementById('image-preview').src = window.URL.createObjectURL(value.files[0]);
+                const filename = path.replace(/^.*[\\\/]/, '').split('.').slice(0, -1).join('.');
+                document.getElementById("filename").innerHTML = filename;
+    }else{
+      alert("檔案格式錯誤，請上傳圖片格式為JPG、PNG、JPEG、SVG")
+    }
+}
+// =====================上傳圖片js結束============================
+    </script>
+
+    <!-- stickey bar: -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-sidebar/3.3.1/sticky-sidebar.min.js"></script>
+    
+    <script>
+        let a = new StickySidebar("#sidebar", {
+            topSpacing: 40,
+            bottomSpacing: 20,
+            containerSelector: ".container",
+            innerWrapperSelector: ".sidebar__inner"
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <title>🗃️管理</title>
+</head>
+<body>
+<!-- header start -->
+<%@ include file="/front-end/store/01h/headerin.jsp" %>
+<!-- header end -->
+<!-- main -->
+<div class="container-fluid">
+    <div class="row">
+        <!-- nav start -->
+        <%@ include file="/front-end/store/01h/nav/navin04.jsp" %>
+        <!-- nav end -->
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4 my-5">
+            <div class="container mb-17 p-4">
+                <section class="shadow p-4" style="background-color: #2779e2; border-radius: 35px;">
+                    <div class="container p-4">
+                        <div class="row d-flex justify-content-center align-items-center h-100 p-4">
+                            <div class="col-xl-9">
+                                <h1 class="text-white text-center m-5">🔆變更密碼</h1>
+                                <div class="card" style="border-radius: 15px;">
+                                    <div class="card-body p-4">
+                                        <%-- 錯誤表列 --%>
+                                        <c:if test="${not empty errorMsgs}">
+                                            <font style="color: red">請修正以下錯誤:</font>
+                                            <ul>
+                                                <c:forEach var="message" items="${errorMsgs}">
+                                                    <li style="color: red">${message}</li>
+                                                </c:forEach>
+                                            </ul>
+                                        </c:if>
+                                        <Form method="post"
+                                              action="${pageContext.request.contextPath}/Member/StoreServlet"
+                                              name="forget1">
+                                            <div class="row align-items-center pt-4 pb-3">
+                                                <div class="col-md-3 ps-5">
+                                                    <h4 class="mb-0">原始密碼</h4>
+                                                </div>
+                                                <div class="col-md-9 pe-5">
+                                                    <input type="text" name="STORE_PWD"
+                                                           class="form-control form-control-lg"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <hr class="mx-n3">
+                                            <div class="row align-items-center pt-4 pb-3">
+                                                <div class="col-md-3 ps-5">
+                                                    <h4 class="mb-0">更新密碼</h4>
+                                                </div>
+                                                <div class="col-md-9 pe-5">
+                                                    <input type="text" name="STORE_PWD2"
+                                                           class="form-control form-control-lg"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <hr class="mx-n3">
+                                            <div class="row align-items-center pt-4 pb-3">
+                                                <div class="col-md-3 ps-5">
+                                                    <h4 class="mb-0">確認密碼</h4>
+                                                </div>
+                                                <div class="col-md-9 pe-5">
+                                                    <input type="text" name="STORE_PWD3"
+                                                           class="form-control form-control-lg"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <hr class="mx-n3">
+                                            <div class="px-5 py-4 ">
+                                                <input type="hidden" name="action" value="chgpwd">
+                                                <button type="submit"
+                                                        class="btn btn-block btn-primary btn-lg fs-5">Update
+                                                </button>
+                                            </div>
+                                        </FORM>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+</div>
+<a
+        class="d-block btn btn-outline-danger  position-fixed position-bottom-10  position-right-10 text-center"
+        href="#" data-toggle="smooth-scroll" data-target="#page-start-anchor"
+        style="z-index: 9; border-radius: 50%;"> <i
+        class="material-icons text-black ">arrow_upward</i>
+</a>
+<!-- main -->
+<!-- footer start -->
+<%@ include file="/front-end/store/01h/footerin.jsp" %>
+<!-- footer end -->
+<!-- sidebar menu Class -->
+<script>
+    $("a:contains(🗃️管理)").closest("a").addClass("active disabled topage");
+    $("a:contains(🔻帳號管理)").closest("a").attr("data-toggle", "show");
+    $("#pageSubmenu7").removeClass("collapse");
+    $("#pageSubmenu7 a:contains(🔆變更密碼)").closest("a").addClass("active disabled bg-white topage");
+</script>
+</body>
+</html>

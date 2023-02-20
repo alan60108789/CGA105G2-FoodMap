@@ -1,0 +1,962 @@
+[
+{
+   "html_attributions" : [],
+   "next_page_token" : "ARywPAIXsE5DlAeorwqFJlR-3osC2OFA-ggtG8rmcTvU-dfcJSXjBHTrLzNyiT_o8loa-u9YV9y1fIe8ha3RJ4zqZ9F0nWy6zeJcqVZVU9EUWoYWQ-nZYwEGkbW0GiRdPGpbiPQWqUqtAwdnL1cmVSigbBqhKkb6KnBNIHvzLMA9XqisL9KCrZS0f2iXvLokFGp2KHSRC5BJPvOsjAcDMszLIYLsH8GEaMtYL1diu9VncDLE1M13Wa18hJLC1l3-50qXFpIthScq3KZn1L04o46GEEL3MCr3ISNs0ktG9SBJKpyQ6DesmCd_cJh8HE86l-CjdXUFMtNEM2MvfelloVrTSRsEF7RgibXrg4mDJ7Bh8kegt9-MOFiJ_PuQonnueRi4Ji_LJFt0faZ91ngcPgVT3N7W5Pm6KEXoP1ons32VyXxpEGgVWxI",
+   "results" : [
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9582867,
+               "lng" : 121.2234102
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.95960212989272,
+                  "lng" : 121.2247971298927
+               },
+               "southwest" : {
+                  "lat" : 24.95690247010728,
+                  "lng" : 121.2220974701072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "Only one 英式小館",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1702,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112230431824810404814\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIXppwyCkZGHuijYMjJkoMLSg_AqMUk_HwXH_UNsS3t5NFFtTBy4xPVW3Y0LGGcZssl9TI2tc4F_OmE0uTjbEtEY9bE4lWuJl14Yv2cAbwVaLylAb14tqC6c1AhOlirip-ZXDh0Ss8PH3-k1Y21dAG2-Iy-Uepw7PfPDrl2eVChG4RT",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJ9X-a7oYjaDQRUo3kBWiLGu0",
+         "plus_code" : {
+            "compound_code" : "X65F+89 中壢區 桃園市",
+            "global_code" : "7QP3X65F+89"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJ9X-a7oYjaDQRUo3kBWiLGu0",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 9,
+         "vicinity" : "中壢區大同路58號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9517433,
+               "lng" : 121.2185713
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.95310267989272,
+                  "lng" : 121.2198333798927
+               },
+               "southwest" : {
+                  "lat" : 24.95040302010728,
+                  "lng" : 121.2171337201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "Make Up Music Bar",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 4000,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116726081677986010058\"\u003eAlex Yuan\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIw3Ol5Fs3IIBQ-SAJcsty_ulr3lNbbLaN5t-RMOhJ-Vk4Dh8x_0YuhSKeJUUw_dJOvCZOAJyrGoCXr6CVBaDYISLjsWmlkUTnjPaIbDEbMyfQQRi3kz5WrtHp20zKJcVX97Zof9xiH59X2gJ_6ZDDKFXrcO5WZDeO5gE5L9K32-wtd",
+               "width" : 6000
+            }
+         ],
+         "place_id" : "ChIJwaI8fTEjaDQRBrfKuX4a1fc",
+         "plus_code" : {
+            "compound_code" : "X629+MC 平鎮區 桃園市",
+            "global_code" : "7QP3X629+MC"
+         },
+         "rating" : 5,
+         "reference" : "ChIJwaI8fTEjaDQRBrfKuX4a1fc",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8,
+         "vicinity" : "平鎮區中原路141號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9588012,
+               "lng" : 121.2240625
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.96013752989272,
+                  "lng" : 121.2254268298927
+               },
+               "southwest" : {
+                  "lat" : 24.95743787010728,
+                  "lng" : 121.2227271701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "River Bar @riverbartw",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3120,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107022446706565600723\"\u003eStewart Haston\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIJWugyI2EZ92msu3oUXG_7ZeEoeRv0kZxAwzf_ktgGYW9uTXMWTSo5i5qz-VHAOtPXYFND8KD4Th-HPuIOvUGRUNry_zOt98tN7e5ZfbMe8m0bDYiZ-t8BMxYNCUB7p4OnDocej1r1KwhlX1xbrv2rY7RzmQXJ-jRs507KfHs5_yZc",
+               "width" : 4160
+            }
+         ],
+         "place_id" : "ChIJb9qKaTYiaDQRz-YBVqRzVN8",
+         "plus_code" : {
+            "compound_code" : "X65F+GJ 中壢區 桃園市",
+            "global_code" : "7QP3X65F+GJ"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJb9qKaTYiaDQRz-YBVqRzVN8",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 294,
+         "vicinity" : "中壢區大同路18號Da Tong Road 18, Zhongli District, Taoyuan City"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9580813,
+               "lng" : 121.2232448
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.95941622989272,
+                  "lng" : 121.2246093798927
+               },
+               "southwest" : {
+                  "lat" : 24.95671657010728,
+                  "lng" : 121.2219097201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "玖貳零920lounge bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1044,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103690412105223429020\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAI8TmxygDSZGmgtBMQxhlST6VE9tmwEtd2RooL8OXkdKVdRwjxEGrogBQS61bUdhMq27yHXTYP5rRlx_gGJixllTfCUIFHl9ibHI0KpIxP6gjhoRvZAG58MTmN6yCmXiQtO984St91LBNW_LYs4g2dsnd_501mPdEP2d2gjsKyrXFDM",
+               "width" : 1569
+            }
+         ],
+         "place_id" : "ChIJO676DzYiaDQR930pw_ddk1U",
+         "plus_code" : {
+            "compound_code" : "X65F+67 中壢區 桃園市",
+            "global_code" : "7QP3X65F+67"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJO676DzYiaDQR930pw_ddk1U",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 58,
+         "vicinity" : "中壢區大同路62號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9620591,
+               "lng" : 121.2176466
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.96341727989272,
+                  "lng" : 121.2190557298927
+               },
+               "southwest" : {
+                  "lat" : 24.96071762010727,
+                  "lng" : 121.2163560701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "1798Bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113514864957137190458\"\u003e甘家穎\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAL1UIJh6VWK3dCwwdFhluCQj_gab4lYSVweP0T14wUJSHlwpl1Yv8swLnJe5_vlPrgtzD4c5qlj74e6wPugUu8pFk0sUAaDJoHTLshoMic1d7j8T4ep8fW1h8GHh4cqVw5kj4KdARNxFAlrQw-D25XuNADs6iz7qbW-tiObKSLkDIiH",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJyerjBXgjaDQRCOxqkb2RfGA",
+         "plus_code" : {
+            "compound_code" : "X669+R3 中壢區 桃園市",
+            "global_code" : "7QP3X669+R3"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJyerjBXgjaDQRCOxqkb2RfGA",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 25,
+         "vicinity" : "中壢區義民路二段153號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9579697,
+               "lng" : 121.2231079
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.95930492989272,
+                  "lng" : 121.2244720798927
+               },
+               "southwest" : {
+                  "lat" : 24.95660527010728,
+                  "lng" : 121.2217724201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "DramYouth Whisky Bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2560,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107786506975005547016\"\u003e彭俊瑄\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJ0v9vW9KQGOw1I_ohdhZmEcd2x9Eadfrqen1M9wwxwvkl8IBC3OjJCuKwxx4UTvxYQYOBr4M3DMig6l-XChO5RUDxtxV_snymMdMNOloLsni7sf4Yf5Lpk2bgbhu3AR775v2PWG_-BhCLIF5dtMtILNqaZVzOD2VUyzLqe9D0UK9VN",
+               "width" : 5120
+            }
+         ],
+         "place_id" : "ChIJNwwKxikjaDQRaDhU6YaR0Yo",
+         "plus_code" : {
+            "compound_code" : "X65F+56 中壢區 桃園市",
+            "global_code" : "7QP3X65F+56"
+         },
+         "rating" : 5,
+         "reference" : "ChIJNwwKxikjaDQRaDhU6YaR0Yo",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 176,
+         "vicinity" : "中壢區大同路70號2樓"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9593048,
+               "lng" : 121.2262331
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.96032527989272,
+                  "lng" : 121.2274764298927
+               },
+               "southwest" : {
+                  "lat" : 24.95762562010728,
+                  "lng" : 121.2247767701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "藏匿餐酒館Hide out Lounge Bar & Bistro",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105543195324690222541\"\u003eHide Out 藏匿咖啡藝墅餐酒館\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJzq-NNDOtzdnBESsttRfWqL-iQUNx-tKgia_KUh78kx-2Jqr3g0apTLxRPccxQBduhs442qVySt0cCdBVq-FJ00q-Q3Idz7eZEZtupvKFDrS5LMlY35XRCL6Wta11rorPrEcQ3I7a0y9seQZL_q3tAAJYSXQ71rWExmIS-bzrJqxIt",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJw3uOqTciaDQRcCVi3uNza_w",
+         "plus_code" : {
+            "compound_code" : "X65G+PG 中壢區 桃園市",
+            "global_code" : "7QP3X65G+PG"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJw3uOqTciaDQRcCVi3uNza_w",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bar",
+            "liquor_store",
+            "restaurant",
+            "point_of_interest",
+            "store",
+            "food",
+            "establishment"
+         ],
+         "user_ratings_total" : 509,
+         "vicinity" : "中壢區中美路76之10號中正公園 圖書館後方"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9589569,
+               "lng" : 121.2215548
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.96029452989272,
+                  "lng" : 121.2229920798927
+               },
+               "southwest" : {
+                  "lat" : 24.95759487010728,
+                  "lng" : 121.2202924201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "陸小曼 Lounge Bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2620,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114428031100368985432\"\u003e李采薇\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAI3weIUJ8-YExiKCZgxby-gA4aQRFmrvhlVHYbg3MTC4_UBn5IvREz2Njd2wF1jZOmte7Ec7oRM0Z-KbSH7fO87MSei-KsVaPAsmrY6XX5R9_je6wxBtYszb5eANcayj6Gm3x5mEhB2wboQbMNm5VxrsKMHpjudPxxkDaETOl1eI47m",
+               "width" : 4656
+            }
+         ],
+         "place_id" : "ChIJN1Px_zUiaDQRla8t16ub7SQ",
+         "plus_code" : {
+            "compound_code" : "X65C+HM 中壢區 桃園市",
+            "global_code" : "7QP3X65C+HM"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJN1Px_zUiaDQRla8t16ub7SQ",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 190,
+         "vicinity" : "中壢區中央西路一段76巷33號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9641474,
+               "lng" : 121.2170041
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.96551447989273,
+                  "lng" : 121.2184245798927
+               },
+               "southwest" : {
+                  "lat" : 24.96281482010728,
+                  "lng" : 121.2157249201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "Bar 藏 ／Bar Hide",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1200,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116805578990509100975\"\u003eWei An\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJ4IOef6tPI8k4q0nQ4yzdBuQYNA9vNnS4R-Lvz4z02Tj_-fZHSE9XMN1U467Ygr-5TCyjoVTuABwjivinA_IKBiSOPr3Mzw7i1fAMp7Gzsjdqb7jIHMOjf2QUP9xMlnt8FuLYd7Z7DAK72vO7SxG0LkRhGioGCJBeR0IctUv_9ehbs",
+               "width" : 960
+            }
+         ],
+         "place_id" : "ChIJuQ_RqjQiaDQRSsyfhykO5GI",
+         "plus_code" : {
+            "compound_code" : "X678+MR 中壢區 桃園市",
+            "global_code" : "7QP3X678+MR"
+         },
+         "rating" : 4.7,
+         "reference" : "ChIJuQ_RqjQiaDQRSsyfhykO5GI",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 318,
+         "vicinity" : "中壢區320台灣桃園市中壢區民權路三光路"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9615119,
+               "lng" : 121.2242251
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.96293912989272,
+                  "lng" : 121.2255776798927
+               },
+               "southwest" : {
+                  "lat" : 24.96023947010727,
+                  "lng" : 121.2228780201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "R8 Lounge Bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2269,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105018049620924510957\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALvI4eMKobrY-LYsjK4JAFy8evNN9qngd7ctMdOXpK0WaCNdax5Sgz2q1zFM5BDrl17eo2lf0tQNpcOCqHGZ3xl34uOBY96vdzBjxIvucEXRjIWCdo3Jvj9G8P7mx2_vW5hB1U0lBxicxT4K4bbz-PQmsJZt47yo7nHFYQNIU583-e3",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJIbAJDZAjaDQR6M5g4Bx9NWI",
+         "plus_code" : {
+            "compound_code" : "X66F+JM 中壢區 桃園市",
+            "global_code" : "7QP3X66F+JM"
+         },
+         "rating" : 5,
+         "reference" : "ChIJIbAJDZAjaDQR6M5g4Bx9NWI",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 36,
+         "vicinity" : "中壢區九和一街48號2號樓之27"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9556055,
+               "lng" : 121.222714
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.95692322989272,
+                  "lng" : 121.2241385298927
+               },
+               "southwest" : {
+                  "lat" : 24.95422357010728,
+                  "lng" : 121.2214388701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "Small.Kitto 去哪酒吧",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/113727720184660743239\"\u003eMichael Chiang\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALaV0TPe21mRsodIoMfW8rnshmaQKgQEN8BBMVfyeOteedeT0bB381Roht4NGdItvG6VG5FpNrnwbAdSEUlnLuhNtamX38sILqHVEiONZHvhUrBRsS6oxFp_VKJA7h9W1pjIjXaiMMle37o3cnqqJwGBqz9H4TRA1166hvb6Jiy-akI",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJTdJciEkiaDQRAI3mXCQ3Oaw",
+         "plus_code" : {
+            "compound_code" : "X64F+63 中壢區 桃園市",
+            "global_code" : "7QP3X64F+63"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJTdJciEkiaDQRAI3mXCQ3Oaw",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bar",
+            "clothing_store",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 336,
+         "vicinity" : "號地下一樓, No. 552延平路中壢區"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9627505,
+               "lng" : 121.2229264
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.96409662989272,
+                  "lng" : 121.2243242798927
+               },
+               "southwest" : {
+                  "lat" : 24.96139697010728,
+                  "lng" : 121.2216246201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "老鄉1995 C.LOUNGE BAR",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/109618169822061169096\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIqaYEeHibkFZ3jEZsUwRyESRyytu6P1mynYfr-siFlTWHWisVb8pK_Oyna8tm5kg7TNCumsRxGvXkynZAfH4PPKnlSEHInJuVg7yKRSSLTk2vUx1uxJFSI9ssA2GanrgDd_R3QOxl8TDs-l-Fl_os8A56FdCjXArTzDS83dF8rWAEo",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJxZ3yq2cjaDQRHsfERjM_xoA",
+         "plus_code" : {
+            "compound_code" : "X67F+45 中壢區 桃園市",
+            "global_code" : "7QP3X67F+45"
+         },
+         "rating" : 5,
+         "reference" : "ChIJxZ3yq2cjaDQRHsfERjM_xoA",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 27,
+         "vicinity" : "中壢區新生路233號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.964059,
+               "lng" : 121.2172549
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.96540377989272,
+                  "lng" : 121.2185842798928
+               },
+               "southwest" : {
+                  "lat" : 24.96270412010728,
+                  "lng" : 121.2158846201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "Jalapeños Bar",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116920123377838440887\"\u003e林侑輗\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALE4K1EiLCYhgpfpkBPCUVOr8BJGqVRDGVnxkFNXebHLk_T1wsdtGZWK-YXQQ23RJ-p3ZnBI9BWVZvtz_cLq2sYB95M1udYDP67jQBrtffla90EOyyyi2sEmjvKKXMZkUhL1x9aNvjE_n6F-h7Ct83B0bdPzD35TVwChnsORfIKrBm9",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJlSTzqTQiaDQRo3C0cpKmzBY",
+         "plus_code" : {
+            "compound_code" : "X678+JW 中壢區 桃園市",
+            "global_code" : "7QP3X678+JW"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJlSTzqTQiaDQRo3C0cpKmzBY",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 88,
+         "vicinity" : "中壢區民權路370號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9594631,
+               "lng" : 121.2206598
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.96080542989272,
+                  "lng" : 121.2220876798927
+               },
+               "southwest" : {
+                  "lat" : 24.95810577010728,
+                  "lng" : 121.2193880201072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "V bar 酒吧",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115819339773380527396\"\u003e葉怡軒\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIR5itnR3BazE47_9gm8OAxHbySgYf1ykUxBaEbhsPSqEJ03ZZ5YcSX6v0n0cInH9Du7Yh8QkSOlVJQqebZcW_W-77FNMQmUAqO5mrD6a9hzCW9kBqJzCg6v6B_OzvokRwDhO4cM6CC5wg0ug5GRvkmlyymZUtw3s-qK4K1otLOU3M5",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJl01YdqwjaDQRUET7tUL_koY",
+         "plus_code" : {
+            "compound_code" : "X65C+Q7 中壢區 桃園市",
+            "global_code" : "7QP3X65C+Q7"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJl01YdqwjaDQRUET7tUL_koY",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 104,
+         "vicinity" : "中壢區興國路45號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9578661,
+               "lng" : 121.2234451
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.95927197989272,
+                  "lng" : 121.2248472298927
+               },
+               "southwest" : {
+                  "lat" : 24.95657232010728,
+                  "lng" : 121.2221475701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "Hop In 精釀啤酒小舖",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/101934929115636557625\"\u003e文杰\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPALC6OnPfo4zA19P-WTgwSoPjeLZh0fLd7QuZuvcoAwx50O5jEK9k5pfrxzpHz6ykVXlHA1iAK2XZ2akqIS7XizPGSFOoClUhzpy4X4KEKT3vn1q0Zu7NrtjjQ5j0w2eJjj0bOuZYtzGEzZU6-8q10QT8On8tKcTiNDzKzknw8oVcT3V",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJmU1fGjYiaDQRXTUs9qZRIHo",
+         "plus_code" : {
+            "compound_code" : "X65F+59 中壢區 桃園市",
+            "global_code" : "7QP3X65F+59"
+         },
+         "price_level" : 2,
+         "rating" : 4.8,
+         "reference" : "ChIJmU1fGjYiaDQRXTUs9qZRIHo",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 246,
+         "vicinity" : "中壢區廣安街11號2F"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9550764,
+               "lng" : 121.22403
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.95640832989272,
+                  "lng" : 121.2254264798927
+               },
+               "southwest" : {
+                  "lat" : 24.95370867010728,
+                  "lng" : 121.2227268201073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "Always Bar",
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/104325808994906971655\"\u003e莊祿安\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKXQqRc_wUTELkNn9RT-o_oyQy4nttU2iWPLcNpcn-rf3UbkBusPzI1cIJvob_JWlXdskClNW4BG51czuGCJuAKwhzj0wxrS9dBvEpKpWeeulL4pVe9EJtgIFtYQP9fhak7mKl1__Sl0donuLycQ9OkeMXpqIhAjA5hJoJjdknTZdH7",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJFbbAMjYiaDQRib9LwO0H7dw",
+         "plus_code" : {
+            "compound_code" : "X64F+2J 中壢區 桃園市",
+            "global_code" : "7QP3X64F+2J"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJFbbAMjYiaDQRib9LwO0H7dw",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 31,
+         "vicinity" : "中壢區復興路122號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9590284,
+               "lng" : 121.2326367
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.96040937989272,
+                  "lng" : 121.2340507798927
+               },
+               "southwest" : {
+                  "lat" : 24.95770972010727,
+                  "lng" : 121.2313511201072
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "放課Funk Bar《人氣酒吧》中壢區經典調酒｜特色調酒｜創意調酒｜無菸｜熱門｜聚會｜必訪酒吧",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2269,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117780689023833154594\"\u003eA Google User\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAIFbbzP5YTNFEEA3Qxr_GYCEiELltlUbVUqz7XXHkMwStSzBl5PJe2hVNlwnEbwXgIXmVvb3ITgsmlpXHdlmimiPANovXAcZGwH8LhNvvK31tZ2aeo6RZkO2wlpGMhBosugaFiCfYXt1gGfa3Nz_TV_Rva-y2jZ1Hv6kS1kn055ufDd",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJhUTNdnsjaDQR4hnkcbWt_co",
+         "plus_code" : {
+            "compound_code" : "X65M+J3 中壢區 桃園市",
+            "global_code" : "7QP3X65M+J3"
+         },
+         "rating" : 5,
+         "reference" : "ChIJhUTNdnsjaDQR4hnkcbWt_co",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 40,
+         "vicinity" : "中壢區普義路87號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9585071,
+               "lng" : 121.2255963
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.95985087989272,
+                  "lng" : 121.2269611298927
+               },
+               "southwest" : {
+                  "lat" : 24.95715122010728,
+                  "lng" : 121.2242614701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "星光大道KTV",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2887,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114222122076872669000\"\u003e許家銘\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAJc2g0_9Jds-Sie9NmKiQevUFumnuO87hatfngnlnh4Z-fzAAQs7sH1p_kzJMgRkyyZatRHOIjl2qYvnSPB50n1d6qywzc3PAaVm76wyDvCSY_nsVv6zX3-KqBzGbansbQFpyRZEO_ngld3HcgP5ql1zf2BP2Ea-AMeF2zsy0HTb1E",
+               "width" : 3853
+            }
+         ],
+         "place_id" : "ChIJc7PCTDYiaDQRTfI8-T72xAM",
+         "plus_code" : {
+            "compound_code" : "X65G+C6 中壢區 桃園市",
+            "global_code" : "7QP3X65G+C6"
+         },
+         "price_level" : 2,
+         "rating" : 3.9,
+         "reference" : "ChIJc7PCTDYiaDQRTfI8-T72xAM",
+         "scope" : "GOOGLE",
+         "types" : [ "night_club", "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 2073,
+         "vicinity" : "中壢區復興路8號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9589563,
+               "lng" : 121.2199033
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.96024922989272,
+                  "lng" : 121.2212412298927
+               },
+               "southwest" : {
+                  "lat" : 24.95754957010728,
+                  "lng" : 121.2185415701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "Magic Pub",
+         "photos" : [
+            {
+               "height" : 1280,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116068272980365086216\"\u003e蔡宜誠\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKm7RV2zP00uLrdaZgXOuo9QV4ulR8jNGKQc0UN132MIYdO1Ijviw9FRxihEdbnZR4aq-2mrMlH_DsK_d-YgNJO9crhyV0CcI_NETR-An4lqm4Mql1WhY6qkHu55PzM27MthQjP4wrWtRpIJU1Ayv3Tjig2QilTwUQhyrX79b85xkLt",
+               "width" : 720
+            }
+         ],
+         "place_id" : "ChIJuePXnTUiaDQRCOY8vBVSnuI",
+         "plus_code" : {
+            "compound_code" : "X659+HX 中壢區 桃園市",
+            "global_code" : "7QP3X659+HX"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJuePXnTUiaDQRCOY8vBVSnuI",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 13,
+         "vicinity" : "中壢區興國路37巷33號"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 24.9579835,
+               "lng" : 121.2252869
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 24.95930047989272,
+                  "lng" : 121.2267251298928
+               },
+               "southwest" : {
+                  "lat" : 24.95660082010728,
+                  "lng" : 121.2240254701073
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "NOT Bar＆bistro",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4032,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116132556964617290136\"\u003e劉浩宇\u003c/a\u003e"
+               ],
+               "photo_reference" : "ARywPAKN_AIXdowkZ5TK8k33F5ju1Z5Pt14nz4fuUvE5Yny3PZUrE6ZEBz5UZdgRxsM5g9NN1Cdk8oFHSK2-ea_uBQ1T9Y3MJsVF1suhESnEzR9lblfJ-KXebpKXC0ydoq2GzyN-OlqzPmN-emYlTXTIX9ZleyN5nkliCWqaz6kgNiGfCzkF",
+               "width" : 3024
+            }
+         ],
+         "place_id" : "ChIJF4BYSHEjaDQRjxuja9QrFUQ",
+         "plus_code" : {
+            "compound_code" : "X65G+54 中壢區 桃園市",
+            "global_code" : "7QP3X65G+54"
+         },
+         "rating" : 5,
+         "reference" : "ChIJF4BYSHEjaDQRjxuja9QrFUQ",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 72,
+         "vicinity" : "中壢區復興路28號"
+      }
+   ],
+   "status" : "OK"
+}
+]

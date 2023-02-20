@@ -1,0 +1,191 @@
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+#custCarousel .carousel-indicators {
+  position: static;
+  margin-top:20px;
+}
+
+#custCarousel .carousel-indicators > li {
+width:200px;
+}
+
+#custCarousel .carousel-indicators li img {
+  display: block;
+  opacity: 0.5;
+}
+
+#custCarousel .carousel-indicators li.active img {
+  opacity: 1;
+}
+
+#custCarousel .carousel-indicators li:hover img {
+  opacity: 0.75;
+}
+
+.carousel-item img{
+
+  width:80%;
+}
+/* ===================會員評論區================= */
+
+.comment-section {
+    display: block;
+    border-radius: 11px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .name {
+    font-size: 20px;
+  }
+  
+  .comment-content {
+    font-size: 14px;
+  }
+  
+  .comments {
+    color: red;
+  }
+/* ===========愛心============== */
+  .heart {
+    font-size: 25px;
+      color:red;
+  }
+
+  /* ==========訂閱按鈕=============== */
+
+  .button-like {
+    border: 2px solid #8a8a8a;
+    background-color: transparent;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    border-radius: 3rem;
+    color: #8a8a8a;
+    transition: all ease 0.4s;
+    cursor:pointer;
+  }
+  
+  .button-like span {
+    margin-left: 0.5rem;
+  }
+  
+  .button-like .fa,
+  .button-like span {
+    transition: all ease 0.4s;
+  }
+   
+   .button-like:hover {
+    border-color: #cc4b37;
+  } 
+  
+   .button-like:hover .fa
+   {
+    color: #cc4b37;
+  } 
+  .button-like:hover #aaa
+   {
+    color: #cc4b37;
+  } 
+   
+  /* ------------ */
+  .liked {
+    background-color: #cc4b37;
+    border-color: #cc4b37;
+  }
+  
+  .liked .fa,
+  .liked span {
+    color: #fefefe;
+  }
+  /* ------------------- */
+   .liked:focus {
+    background-color: #cc4b37;
+  }
+  
+  .liked:focus .fa,
+  .liked:focus #aaa {
+    color: #fefefe;
+  }
+  
+   
+  
+  .modal-overlay {
+    position: fixed;
+    bottom: 5%;
+    left: 45%;
+    width: 250px;
+    height: 60px;
+    background: rgb(141, 141, 141);
+    display: grid;
+    transition:0;
+    visibility: hidden;
+    z-index: -10;
+    color:white;
+  }
+  .subscription{
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .close-btn{
+    text-align:right;
+    margin-left:5px;
+    
+  }
+  
+  .modal-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .open-modal {
+    visibility: visible;
+    z-index: 10;
+  }
+  
+/* 動畫 */
+
+.ain{
+  animation: example 1s 0s forwards,fadein 4s 0s forwards;
+}
+
+
+@keyframes example {
+  0%   {bottom: -5%;}
+  100% {bottom: 10%;}
+}
+
+@keyframes fadein {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+/* =================訂閱按鈕結束===================== */
+/* =================評論區按讚按鈕開始===================== */
+.Thumbs{
+  cursor: pointer;
+}
+
+.Thumbsed {
+  color: blue;
+  }
+
+  .Thumbsed:focus {
+    background-color: blue;
+  }
+
+
+/* =================評論區按讚按鈕結束===================== */

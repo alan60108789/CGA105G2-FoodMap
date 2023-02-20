@@ -1,0 +1,32 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+<nav aria-label="Page Navigation" style="margin-top: 20px;">
+  <ul class="pagination justify-content-center">
+    <%if (pageIndex >= rowsPerPage) {%>
+      <li class="page-item">
+        <a class="page-link" style="background-color: white; color: gray; border: 1px solid gray;" href="<%=request.getRequestURI()%>?whichPage=1">第一頁</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" style="background-color: white; color: gray; border: 1px solid gray;" href="<%=request.getRequestURI()%>?whichPage=<%=whichPage-1%>">上一頁</a>
+      </li>
+    <%}%>
+
+    <%for (int i = 1; i <= pageNumber; i++) {%>
+      <li class="page-item <%=i == whichPage ? "active" : ""%>">
+        <a class="page-link" style="background-color: <%=i == whichPage ? "Dimgray" : "white"%> ; color: <%=i == whichPage ? "white" : "gray"%>; border: 1px solid gray;" href="<%=request.getRequestURI()%>?whichPage=<%=i%>"><%=i%></a>
+      </li>
+    <%}%>
+
+    <%if (pageIndex < pageIndexArray[pageNumber - 1]) {%>
+      <li class="page-item">
+        <a class="page-link" style="background-color: white; color: gray; border: 1px solid gray;" href="<%=request.getRequestURI()%>?whichPage=<%=whichPage+1%>">下一頁</a>
+      </li>
+      <li class="page-item">
+        <a class="page-link" style="background-color: white; color: gray; border: 1px solid gray;" href="<%=request.getRequestURI()%>?whichPage=<%=pageNumber%>">最後一頁</a>
+      </li>
+    <%}%>
+  </ul>
+</nav>
+
+  
+  

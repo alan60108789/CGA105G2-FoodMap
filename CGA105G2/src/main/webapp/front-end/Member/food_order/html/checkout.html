@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <title>🗃️管理</title>
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="/assets/css/vendor.css" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="stylesheet" href="/assets/custom.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <style>
+    body {
+      height: 100%;
+    }
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    a {
+      color: black;
+    }
+
+    .table th {
+      white-space: nowrap !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="page-start-anchor"></div>
+
+  <!-- header start -->
+  <section class="header header-fixed-xl">
+    <div class="header-main bg-warning">
+      <div class="container" style="max-width: 1400px">
+        <div class="row" style="max-width: 1400px">
+          <nav class="navbar navbar-expand-lg navbar-light fs-md-6" id="header-navbar">
+            <!-- @*Navbar(白色)*@ -->
+            <div>
+              <a class="navbar-brand font-weight-bold" href="Member.html">
+                <img src="/assets/images/Logo.PNG" style="width: 100px; height: 100px" alt="" /></a>
+            </div>
+            <form class="form-inline my-2 my-md-0 bg-white p-1 " style="border-radius: 30px;">
+              <div class="single-icon" data-toggle="tooltip" title="" data-original-title="search" style="border: 0; ">
+                <i class="material-icons">search</i>
+              </div>
+
+              <input class="form-control " type="text" placeholder="Search" style="border: 0; border-radius: 30px;">
+            </form>
+
+            <!--            ps-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <div class="navbar-spacer"></div>
+                <div class="navbar-spacer"></div>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" data-toggle="none" href="./ContactUs.html">
+                    📭聯繫我們
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" data-toggle="none" href="./ContactUs.html">
+                    🌟
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" data-toggle="none" href="./MemberLogin.html">
+                    💰point
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" data-toggle="none" href="./Waiting.html">
+                    🛒
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase active disabled" data-toggle="none"
+                    style="color: #216a51 !important;" href="./AboutUS.html">
+                    🗃️管理
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" data-toggle="none" href="home.html">
+                    🚪Sing out
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- header end -->
+
+  <!-- main -->
+
+
+  <!-- main -->
+  <div class="container-fluid">
+    <div class="row">
+      <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+        <div class="p-4 pt-5">
+          <ul class="list-unstyled components mb-5">
+            <li class="p-2 text-center">
+              <a href="#">
+                <h2>Home</h2>
+              </a>
+            </li>
+            <li>
+
+              <hr>
+              <a href="#pageSubmenu1" data-toggle="collapse" aria-expanded="false" class="dropdown">
+                <h3>🔻優惠券</h3>
+              </a>
+              <ul class="list-unstyled collapse" id="pageSubmenu1">
+                <li>
+                  <hr><a href="Member_code1.html">🔆有效優惠券</a>
+                </li>
+                <li><a href="#">🔆歷史查詢</a>
+                  <hr>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown">
+                <h3>🔻訂單</h3>
+              </a>
+              <ul class="list-unstyled collapse" id="pageSubmenu2">
+                <li>
+                  <hr><a href="#">🔆待出貨</a>
+                </li>
+                <li><a href="#">🔆待評價</a></li>
+                <li><a href="#">🔆歷史查詢</a>
+                  <hr>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown">
+                <h3>🔻訂位</h3>
+              </a>
+              <ul class="collapse list-unstyled" id="pageSubmenu3">
+                <li>
+                  <hr><a href="#">🔆已預約</a>
+                </li>
+                <li><a href="#">🔆用餐評價</a></li>
+                <li><a href="#">🔆訂位紀錄</a>
+                  <hr>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown">
+                <h3>🔻設定</h3>
+              </a>
+              <ul class="collapse list-unstyled" id="pageSubmenu4">
+                <li>
+                  <hr><a href="#">🔆基本資料</a>
+                </li>
+                <li><a href="#">🔆收件地址</a></li>
+                <li><a href="#">🔆付款方式</a></li>
+                <li><a href="#">🔆變更密碼</a>
+                  <hr>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class="container mt-17 mb-17">
+
+        <div class="col-md-9  card shadow m-5">
+
+          <h1 class=" m-5 text-center">結帳</h1>
+          <form METHOD="post" action="<%=request.getContextPath()%>/front-end/store/food_order/food_order.do"
+            style="padding: 10px 100px;" autocomplete="off">
+
+            <!-- <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">動作 (Action):</span>
+              <input type="text" name="ServiceURL" id="order_shop_name1" readonly="readonly"
+                value="https://payment-stage.ecpay.com.tw/Cashier/AioCheckOut/V5" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">編號 (MerchantTradeNo):</span>
+              <input type="text" name="MerchantTradeNo" id="order_shop_name1" readonly="readonly"
+                value="oikidA0000001" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">時間 (MerchantTradeDate):</span>
+              <input type="text" name="MerchantTradeDate" id="order_shop_name1" readonly="readonly"
+                value="2017/06/30 00:00:00" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">類型 (PaymentType):</span>
+              <input type="text" name="PaymentType" id="order_shop_name1" readonly="readonly"
+                value="aio" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">金額 (TotalAmount):</span>
+              <input type="text" name="TotalAmount" id="order_shop_name1" readonly="readonly"
+                value="29999" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">描述 (TradeDesc):</span>
+              <input type="text" name="TradeDesc" id="order_shop_name1" readonly="readonly"
+                value="Desc" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">名稱 (ItemName):</span>
+              <input type="text" name="ItemName" id="order_shop_name1" readonly="readonly"
+                value="A#B" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">回傳網址 (ReturnURL):</span>
+              <input type="text" name="ReturnURL" id="order_shop_name1" readonly="readonly"
+                value="http://tn.sly-ha.com.tw/demo/hoyo/ECPay.php" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">付款方式 (ChoosePayment):</span>
+              <input type="text" name="ChoosePayment" id="order_shop_name1" readonly="readonly"
+                value="ALL" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+            </div> -->
+
+
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">店家名稱 : </span>
+              <input type="text" name="order_shop_name" id="order_shop_name1" readonly="readonly"
+                value="之後註冊事件取回orJSP getsession" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+              <span></span>
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">名字 : </span>
+              <input type="text" name="order_member_name" id="order_shop_name1" readonly="readonly"
+                value="測試者" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+              <span></span>
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">電話 : </span>
+              <input type="text" name="order_member_phone" id="order_shop_name1" readonly="readonly"
+                value="09xxxxxxxx" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+              <span></span>
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">人數 : </span>
+              <input type="text" name="order_shop_name" id="order_shop_name1" readonly="readonly"
+                value="4" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+              <span></span>
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">日期 : </span>
+              <input type="text" name="order_shop_name" id="order_shop_name1" readonly="readonly"
+                value="2023-01-31" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+              <span></span>
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">時段 : </span>
+              <input type="text" name="order_shop_name" id="order_shop_name1" readonly="readonly"
+                value="1:00" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+              <span></span>
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">信用卡人 : </span>
+              <input type="text" name="order_shop_name" id="order_shop_name1" readonly="readonly"
+                value="xxxx" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+              <span></span>
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">信用卡號 : </span>
+              <input type="text" name="order_shop_name" id="order_shop_name1" readonly="readonly"
+                value="xxxx" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+            </div>
+            <table class="table" style="text-align:center; font-size: 20px;">
+              <thead class="thead-light">
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">編號</th>
+                  <th scope="col">套餐名稱</th>
+                  <th scope="col">金額</th>
+                  <th scope="col">數量</th>
+                </tr>
+              </thead>
+              <tbody id="tbody_detail">
+                <!-- 這邊tr_detail+i 1記得寫jsp要改成i-->
+                <tr id="tr_detail_1">
+                  <th scope="row">1</th>
+                  <td>2</td>
+                  <td>Otto</td>
+                  <td id="money_1">200</td>
+                  <td id="money_1">2</td>
+                </tr>
+                <tr id="tr_total">
+                  <td>合計 : 400</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">優惠碼扣金額 : </span>
+              <input type="text" name="order_shop_name" id="order_shop_name1" readonly="readonly"
+                value="100" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+            </div>
+            <div class="input-group input-group-lg mb-5">
+              <span class="input-group-text" id="inputGroup-sizing-lg1">結帳金額 : </span>
+              <input type="text" name="order_shop_name" id="order_shop_name1" readonly="readonly"
+                value="300" class="form-control" aria-label="Sizing example input"
+                aria-describedby="inputGroup-sizing-lg">
+            </div>
+            <div>
+              <input type="hidden" name="action" value="checkout">
+              <input class="btn btn-warning mb-1 btn-block fs-5 mb-10" type="submit" value="結帳">
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+  <!-- main -->
+
+  <!-- footer start -->
+  <section class="footer bg-warning" style=" width: 100%; position:relative; bottom:0; top:30%">
+    <div class="container">
+      <!-- 三張小圖 -->
+      <div class="d-flex align-items-stretch justify-content-md-center py-10">
+        <!-- 地址 -->
+        <div class="card border-0 bg-secondary mb-4 ml-lg-9 w-25">
+          <div class="card-body py-17 px-10 text-center">
+            <div class="card-icon mb-6"><i class="material-icons">map</i></div>
+            <div
+              class="fs-1 lh-1 my-5 font-family-secondary text-uppercase font-weight-bold letter-spacing-caption text-muted">
+              Our address
+            </div>
+            <p class="mb-0 text-body">桃園市中壢區復興路46號9樓<br />Hollow Lane. NY 11706.</p>
+          </div>
+        </div>
+        <!-- 電話 -->
+        <div class="card border-0 bg-secondary mb-4 ml-lg-9 w-25">
+          <div class="card-body py-17 px-10 text-center">
+            <div class="card-icon mb-6"><i class="material-icons">phone</i></div>
+            <div
+              class="fs-1 lh-1 my-5 font-family-secondary text-uppercase font-weight-bold letter-spacing-caption text-muted">
+              連絡電話
+            </div>
+            <p class="mb-0 text-body">0800-087-087</p>
+          </div>
+        </div>
+        <!-- 營業時間 -->
+        <div class="card border-0 bg-secondary mb-4 ml-lg-9 w-25">
+          <div class="card-body py-17 px-10 text-center">
+            <div class="card-icon mb-6"><i class="material-icons">access_time</i></div>
+            <div
+              class="fs-1 lh-1 my-5 font-family-secondary text-uppercase font-weight-bold letter-spacing-caption text-muted">
+              營業時間
+            </div>
+            <p class="mb-0 text-body">11:00 AM - 9:00 PM</p>
+          </div>
+        </div>
+      </div>
+      <!-- 跳轉到社群連結 -->
+      <div class="d-flex align-items-center justify-content-center">
+        <a href="home.html" class="footer-brand">FoodMap</a>
+        <div class="brand-icons-list ml-10 ml-sm-20">
+          <!-- FB圖案 -->
+          <a href="#" class="brand-icon brand-icon-circle brand-icon-facebook">
+            <i class="fa fa-facebook-f"></i>
+          </a>
+          <!-- twitter圖案 -->
+          <a href="#" class="brand-icon brand-icon-circle brand-icon-twitter">
+            <i class="fa fa-twitter "></i>
+          </a>
+          <!-- ig圖案-->
+          <a href="#" class="brand-icon brand-icon-circle brand-icon-instagram">
+            <i class="fa fa-pinterest-p"></i>
+          </a>
+        </div>
+      </div>
+      <!-- 頁底文字 -->
+      <small class="d-flex align-items-center justify-content-center" style="margin:0px -10px 0px -10px;">
+        TibaMe CGA105_2 MapFood
+        <a href="#" data-toggle="smooth-scroll" data-target="#page-start-anchor">
+          <i class="material-icons text-black">arrow_upward</i>
+        </a>
+      </small>
+    </div>
+  </section>
+  <!-- footer end -->
+
+  <script src="/assets/js/vendor.js"></script>
+  <script src="/assets/js/polyfills.js"></script>
+  <script src="/assets/js/app.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+    </script> -->
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+
+
+  <script>
+
+    // Part1 : 填入表單各種註冊
+    const checkList = {
+      order_shop_name: '',
+      peopleNum: '',
+      dateInput: '',
+      select_order_time: ''
+    }
+    // document.getElementById(`order_position`).addEventListener('click', order_positionEventListener);
+    // function order_positionEventListener(event) {
+    //   let check_num = 0;
+    //   checkList.order_shop_name = document.getElementById(`order_shop_name`).value;
+    //   // 新增資料
+    //   sessionStorage.setItem('order_shop_name', document.getElementById(`order_shop_name`).value);
+
+    //   if (document.getElementById(`peopleNum1`).value === '0') {
+    //     document.getElementById('peopleNum2').textContent = '未選擇!';
+    //     document.getElementById('peopleNum2').style.color = 'red';
+    //   } else {
+    //     document.getElementById('peopleNum2').textContent = '';
+    //     checkList.peopleNum = document.getElementById(`peopleNum1`).value;
+    //     sessionStorage.setItem('peopleNum', document.getElementById(`peopleNum1`).value);
+    //     check_num++;
+    //   }
+
+    //   if (document.getElementById(`datepicker1_1`).value === '') {
+    //     document.getElementById(`datepicker1_2`).textContent = '未選擇!';
+    //     document.getElementById(`datepicker1_2`).style.color = 'red';
+    //   } else {
+    //     document.getElementById(`datepicker1_2`).textContent = '';
+    //     checkList.dateInput = document.getElementById(`datepicker1_1`).value;
+    //     sessionStorage.setItem('dateInput', document.getElementById(`datepicker1_1`).value);
+    //     check_num++;
+    //   }
+
+    //   if (document.getElementById(`select_order_time1`).value === '0') {
+    //     document.getElementById(`select_order_time2`).textContent = '未選擇!';
+    //     document.getElementById(`select_order_time2`).style.color = 'red';
+    //   } else {
+    //     document.getElementById(`select_order_time2`).textContent = '';
+    //     checkList.select_order_time = document.getElementById(`select_order_time1`).value;
+    //     sessionStorage.setItem('select_order_time', document.getElementById(`select_order_time1`).value);
+    //     check_num++;
+    //   }
+
+    //   if (check_num === 3) {
+    //     let returnResult = confirm('確定送出?');
+    //     if (returnResult) {
+    //       alert('訂位資料\n店家名稱:' + checkList.order_shop_name + '\n人數:' + checkList.peopleNum + '\n日期:' + checkList.dateInput + '\n時段:' + checkList.select_order_time);
+    //       //這邊之後還要post到後端看是否有位置  才跳轉  下一頁可以在前端session取數值
+    //       parent.window.location.assign("/profi_1.0.2/src/home/Member_order_page2.html");
+    //     }
+    //   } else {
+    //     alert("請填寫完整!")
+    //   }
+
+
+
+
+    // }
+
+    $(function () {
+      $("#datepicker1_1")
+      .datepicker({hangeMonth: true})
+      .datepicker("option", "dateFormat", "yy-mm-dd")
+      .datepicker("option", "minDate", 0)
+      .datepicker("option", "maxDate", "+1M")
+    });
+
+
+    document.getElementById(`select_order_time1`).addEventListener('mousedown', selectEventListener);
+    let select_time_temp = 0;
+    function selectEventListener(event) {
+      if (select_time_temp == 0) {
+        //這邊之後改成ajax去後臺要時段資料或者jsp取
+        let order_time_list = ["11:00", "13:00"];
+        for (let order_time of order_time_list) {
+          let option = document.createElement("option");
+          option.textContent = order_time;
+          document.getElementById(`select_order_time1`).appendChild(option);
+        }
+      }
+      select_time_temp++;
+    }
+
+
+  </script>
+  <!-- Vue -->
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script>
+    const { createApp } = Vue;
+
+    createApp({
+      data() {
+        return {
+          message: "Hello Vue!",
+        };
+      },
+    }).mount("#app");
+  </script>
+
+  <!-- stickey bar: -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-sidebar/3.3.1/sticky-sidebar.min.js"></script>
+
+  <script>
+    let a = new StickySidebar("#sidebar", {
+      topSpacing: 40,
+      bottomSpacing: 20,
+      containerSelector: ".container",
+      innerWrapperSelector: ".sidebar__inner"
+    });
+  </script>
+</body>
+
+</html>
