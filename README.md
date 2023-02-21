@@ -3,6 +3,7 @@
 * 搜尋店家/會員  
 * 追蹤/訂閱/評論區  
 * 發文功能(串接訂單&點數)  
+* 遊戲室  
 ### 使用技術  
 * 前端：HTML、CSS、JavaScript、Bootstrap、Ajax
 * 後端：Java、Servlet、JDBC、Hibernate
