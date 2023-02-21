@@ -2,10 +2,11 @@
 ### 簡介 
 擁有社群功能，且可以進行訂位、購物的美食網站。 
 ### 負責項目  
-* 搜尋店家/會員-> (`java/com/Member/core`)  
-* 追蹤/訂閱/評論區 > (`java/com/followmem`)  
-* 發文功能(串接訂單&點數)-> (`java/com/art`)  
-* 遊戲室  (`java/com/core/servlet`)  
+#### #前台
+* 搜尋店家/會員 -> [java/com/Member/core](https://github.com/alan60108789/CGA105G2-FoodMap/tree/master/CGA105G2/src/main/java/com/core)  
+* 追蹤/訂閱/評論區 -> [java/com/followmem](https://github.com/alan60108789/CGA105G2-FoodMap/tree/master/CGA105G2/src/main/java/com/followmem)  
+* 發文功能(串接訂單&點數) -> [java/com/art](https://github.com/alan60108789/CGA105G2-FoodMap/tree/master/CGA105G2/src/main/java/com/art)  
+* 遊戲室 -> [java/com/core/servlet](https://github.com/alan60108789/CGA105G2-FoodMap/tree/master/CGA105G2/src/main/java/com/core/servlet)  
 ### 使用技術  
 * 前端：HTML、CSS、JavaScript、Bootstrap、Ajax
 * 後端：Java、Servlet、JDBC、Hibernate
