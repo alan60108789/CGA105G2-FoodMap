@@ -1,4 +1,6 @@
 # FoodMap美食網
+### 簡介 
+擁有社群功能，且可以進行訂位、購物的美食網站。 
 ### 負責項目  
 * 搜尋店家/會員  
 * 追蹤/訂閱/評論區  
@@ -8,7 +10,7 @@
 * 前端：HTML、CSS、JavaScript、Bootstrap、Ajax
 * 後端：Java、Servlet、JDBC、Hibernate
 * 資料庫：MySQL、Redis
-### 專題簡介
+### 頁面展示
 <table>
 <tr>
 <td><img src="https://raw.githubusercontent.com/alan60108789/CGA105G2-FoodMap/master/CGA105G2/CGA105G2_Git/CGA105G2/target/m2e-wtp/web-resources/%E5%BA%97%E5%AE%B6%E5%9C%96%E7%89%87.JPG"></td>
