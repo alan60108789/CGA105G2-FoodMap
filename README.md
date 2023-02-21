@@ -2,10 +2,10 @@
 ### 簡介 
 擁有社群功能，且可以進行訂位、購物的美食網站。 
 ### 負責項目  
-* 搜尋店家/會員  
-* 追蹤/訂閱/評論區  
-* 發文功能(串接訂單&點數)  
-* 遊戲室  
+* 搜尋店家/會員-> (`java/com/Member/core`)  
+* 追蹤/訂閱/評論區 > (`java/com/followmem`)  
+* 發文功能(串接訂單&點數)-> (`java/com/art`)  
+* 遊戲室  (`java/com/core/servlet`)  
 ### 使用技術  
 * 前端：HTML、CSS、JavaScript、Bootstrap、Ajax
 * 後端：Java、Servlet、JDBC、Hibernate
