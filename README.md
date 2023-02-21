@@ -1,7 +1,7 @@
 # FoodMap美食網
 ### 簡介 
 擁有社群功能，且可以進行訂位、購物的美食網站。   
-🌝[影片網址](https://youtu.be/2C0t2nPfJi8?t=1651)✅[文件網址](https://youtu.be/2C0t2nPfJi8?t=1651)
+🌝[影片網址](https://youtu.be/2C0t2nPfJi8?t=1651)✅[文件網址](https://www.canva.com/design/DAFbM101004/nSY3cjWRtClBNGWJnF06zw/view?utm_content=DAFbM101004&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 ### 負責項目  
 #### #前台
 * 搜尋店家/會員 -> [java/com/Member/core](https://github.com/alan60108789/CGA105G2-FoodMap/tree/master/CGA105G2/src/main/java/com/core)  
